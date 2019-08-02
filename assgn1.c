@@ -1,9 +1,9 @@
   
 #include<stdio.h>
 
-int sum(int k) {
+int sum(int n) {
     int i, sum = 0;
-    for(i = 1; i <= k; i++) {
+    for(i = 1; i <= n; i++) {
         sum += i;
     }
 
@@ -11,9 +11,9 @@ int sum(int k) {
 }
 
 int main() {
-    int k;
-    printf("enter the nos of terms");
-    scanf("%d", &k);
-    printf("%d", sum(k));
+    int n;
+    printf("Enter the nos of terms");
+    scanf("%d", &n);
+    printf("%d", sum(n));
     return 0;
 }
